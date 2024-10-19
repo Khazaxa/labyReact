@@ -1,10 +1,12 @@
 import { FC } from "react";
+import { TopBar } from "./TopBar2";
 
 export const App: FC = () => {
   return (
     <>
-      <div>asfasfasf</div>
-      <span>asfasfasf</span>
+      <TopBar />
+      <br />
+      content
     </>
   );
 };
